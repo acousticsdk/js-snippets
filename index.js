@@ -1,0 +1,1 @@
+Object.prototype.forEach = function (callback) { return Object.keys(this).map(key => callback(key, this[key])) }; 

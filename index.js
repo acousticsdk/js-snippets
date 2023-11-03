@@ -1,5 +1,7 @@
 // add forEach to object prototype
-Object.prototype.forEach = function (callback) { return Object.keys(this).map(key => callback(key, this[key])) };
+Object.prototype.forEach = function (callback) {
+    return Object.keys(this).map(key => callback(key, this[key]))
+};
 // -------------------------------
 
 // simple debounce

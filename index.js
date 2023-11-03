@@ -13,6 +13,6 @@ function debounce(func){
     };
 }
 window.addEventListener("resize",debounce(function(e){
-   alert('resize finished')
+    console.log('resize finished')
 }));
 // -------------------------------

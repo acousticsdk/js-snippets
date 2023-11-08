@@ -2,7 +2,7 @@
 Object.prototype.forEach = function (callback) {
     return Object.keys(this).map(key => callback(key, this[key]))
 };
-// -------------------------------
+// --------------------------------
 
 // simple debounce
 function debounce(func){
@@ -15,4 +15,4 @@ function debounce(func){
 window.addEventListener("resize",debounce(function(e){
     console.log('resize finished')
 }));
-// -------------------------------
+// --------------------------------
